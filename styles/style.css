@@ -2229,10 +2229,11 @@ button:focus {
   width: 100%;
 }
 .skill {
-  margin: 30px auto;
+  margin: 40px auto;
 }
 .skill-title {
   color: white;
+  font-size: 20px;
 }
 /*===================================================
 1.1 contact-area start

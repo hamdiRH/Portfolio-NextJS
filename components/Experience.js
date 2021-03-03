@@ -24,6 +24,7 @@ class Porfolio extends Component {
               </div>
             </div>
           </div>
+
           <div class="container">
             <div class="main-timeline">
               <div class="timeline">
@@ -31,19 +32,23 @@ class Porfolio extends Component {
                 <div class="date-content">
                   <div class="date-outer">
                     <span class="date">
-                    <img src="Images/service/3.png" alt="" />
-                      {/* <span class="month">XPR</span> */}
-                      {/* <span class="year">2020/2021</span> */}
+                      <img
+                        src="Images/experience/xpr.ico"
+                        alt=""
+                        style={{ width: "75px" }}
+                      />
                     </span>
                   </div>
                 </div>
                 <div class="timeline-content">
-                  <h5 class="title">Visual Art &amp; Design</h5>
+                  <h5 class="title">FULLSTACK JS DEVELOPER</h5>
+
                   <p class="description">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-                    efficitur ex sit amet massa scelerisque scelerisque. Aliquam
-                    erat volutpat. Aenean interdum finibus efficitur. Praesent
-                    dapibus dolor felis, eu ultrices elit molestie.
+                    <b>GED</b> is a platform , that allow to accountants and
+                    experts accountants to have visibility into their activities
+                    and improve the management of their practices.
+                    <br />
+                    <b>Tech used:</b>React, Redux, Node, Express, MongoDB
                   </p>
                 </div>
               </div>
@@ -53,18 +58,26 @@ class Porfolio extends Component {
                 <div class="date-content">
                   <div class="date-outer">
                     <span class="date">
-                      <span class="month">1 Years</span>
-                      <span class="year">2015</span>
+                      <img
+                        src="Images/experience/gomycode.svg"
+                        alt=""
+                        style={{ width: "100px", marginTop: "20px" }}
+                      />
                     </span>
                   </div>
                 </div>
                 <div class="timeline-content">
-                  <h5 class="title">Product Designer</h5>
+                  <h5 class="title">FULLSTACK JS DEVELOPER</h5>
                   <p class="description">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-                    efficitur ex sit amet massa scelerisque scelerisque. Aliquam
-                    erat volutpat. Aenean interdum finibus efficitur. Praesent
-                    dapibus dolor felis, eu ultrices elit molestie.
+                    <b>Feezless</b> is a platform that facilitates the sale of
+                    restaurants thanks to digital services: Matching of goods
+                    with filtered buyers, online visit appointment management,
+                    management of online purchase offers ... <br />
+                    <b>Tech used:</b> React,Redux, Node, Express, MongoDB <br />
+                    <b>Learn</b> is an e-learning platform, it gives the student
+                    the ability to track performance and identify points
+                    improvement. <br />
+                    <b>Tech used:</b> React, Redux, .Net, Neo4j
                   </p>
                 </div>
               </div>
@@ -74,18 +87,26 @@ class Porfolio extends Component {
                 <div class="date-content">
                   <div class="date-outer">
                     <span class="date">
-                      <span class="month">2 Years</span>
-                      <span class="year">2016</span>
+                      <img
+                        src="Images/experience/gomycode.svg"
+                        alt=""
+                        style={{ width: "100px", marginTop: "20px" }}
+                      />
                     </span>
                   </div>
                 </div>
                 <div class="timeline-content">
-                  <h5 class="title">Web Designer</h5>
+                  <h5 class="title">NSTRUCTEUR FULLSTACK JS</h5>
                   <p class="description">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-                    efficitur ex sit amet massa scelerisque scelerisque. Aliquam
-                    erat volutpat. Aenean interdum finibus efficitur. Praesent
-                    dapibus dolor felis, eu ultrices elit molestie.
+                    <ul>
+                      <li>
+                        Student monitoring and mentoring Organization of project
+                      </li>
+                      <li>
+                        Validation workshops for each session Provide monthly
+                      </li>
+                      <li>Assessment interviews with students</li>
+                    </ul>
                   </p>
                 </div>
               </div>
@@ -95,18 +116,61 @@ class Porfolio extends Component {
                 <div class="date-content">
                   <div class="date-outer">
                     <span class="date">
-                      <span class="month">2 Years</span>
-                      <span class="year">2018</span>
+                      <img
+                        src="Images/experience/timelec.png"
+                        alt=""
+                        style={{ width: "100px", marginTop: "-20px" }}
+                      />
                     </span>
                   </div>
                 </div>
                 <div class="timeline-content">
-                  <h5 class="title">Graphic Designer</h5>
+                  <h5 class="title">Operator</h5>
                   <p class="description">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-                    efficitur ex sit amet massa scelerisque scelerisque. Aliquam
-                    erat volutpat. Aenean interdum finibus efficitur. Praesent
-                    dapibus dolor felis, eu ultrices elit molestie.
+                    Box deburring and sorting operator for electronic switches.
+                  </p>
+                </div>
+              </div>
+
+              <div class="timeline">
+                <div class="icon"></div>
+                <div class="date-content">
+                  <div class="date-outer">
+                    <span class="date">
+                      <img
+                        src="Images/experience/arabsoft.svg"
+                        alt=""
+                        style={{ width: "120px", marginTop: "10px" }}
+                      />
+                    </span>
+                  </div>
+                </div>
+                <div class="timeline-content">
+                  <h5 class="title">PFE Trainee </h5>
+                  <p class="description">
+                    Analysis, design and implementation of an application mobile
+                    tourist guide "Android".
+                  </p>
+                </div>
+              </div>
+
+              <div class="timeline">
+                <div class="icon"></div>
+                <div class="date-content">
+                  <div class="date-outer">
+                    <span class="date">
+                      <img
+                        src="Images/experience/telecom.png"
+                        alt=""
+                        style={{ width: "125px" }}
+                      />
+                    </span>
+                  </div>
+                </div>
+                <div class="timeline-content">
+                  <h5 class="title">Trainee</h5>
+                  <p class="description">
+                    Management of fixed telephone subscribers and ADSL internet
                   </p>
                 </div>
               </div>

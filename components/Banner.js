@@ -1,10 +1,17 @@
+import React from "react";
+import Link from "next/link";
+
 const Scrollbar = () => {
+  const clickHandleFacebook = () => {
+    document.location.href = "https://www.facebook.com/uzumaki.hamdi/";
+  };
+
   return (
     <section id="home" className="hero hero-slider-wrapper hero-style-1">
       <div className="hero-slider">
         <div className="slide">
           <div className="slider-image">
-            <img src="Images/slide-2.png" alt=""/>
+            <img src="Images/slide-2.png" alt="" />
           </div>
           <div className="container">
             <div className="row">
@@ -31,24 +38,35 @@ const Scrollbar = () => {
       <div className="social-links">
         <ul>
           <li>
-            <a href="https://www.facebook.com/uzumaki.hamdi/" target="_blank">
-              <i className="fa fa-facebook"></i>
-            </a>
-          </li>
-          <li>
-            <a href="https://github.com/hamdiRH" target="_blank">
+            {/* <Link href="https://github.com/hamdiRH/" passHref={true}> */}
+            <a
+              href="https://github.com/hamdiRH/"
+              target="_blank"
+              rel="noreferrer"
+            >
               <i className="fa fa-github"></i>
             </a>
+            {/* </Link> */}
           </li>
           <li>
-            <a href="https://www.linkedin.com/in/hamdi-rahal/" target="_blank">
-              <i className="fa fa-linkedin"></i>
+            <a>
+              <i className="fa fa-facebook" onClick={clickHandleFacebook}></i>
             </a>
           </li>
           <li>
-            <a href="#contact">
-              <i className="fa fa-envelope"></i>
-            </a>
+            <Link href="https://www.linkedin.com/in/hamdi-rahal/">
+              <a target="_blank">
+                <i className="fa fa-linkedin"></i>
+              </a>
+            </Link>
+          </li>
+
+          <li>
+            <Link href="#contact">
+              <a>
+                <i className="fa fa-envelope"></i>
+              </a>
+            </Link>
           </li>
         </ul>
       </div>
