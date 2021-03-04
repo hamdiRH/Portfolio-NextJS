@@ -38,7 +38,6 @@ const Scrollbar = () => {
       <div className="social-links">
         <ul>
           <li>
-            {/* <Link href="https://github.com/hamdiRH/" passHref={true}> */}
             <a
               href="https://github.com/hamdiRH/"
               target="_blank"
@@ -46,11 +45,14 @@ const Scrollbar = () => {
             >
               <i className="fa fa-github"></i>
             </a>
-            {/* </Link> */}
           </li>
           <li>
-            <a>
-              <i className="fa fa-facebook" onClick={clickHandleFacebook}></i>
+            <a
+              href="https://github.com/hamdiRH/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <i className="fa fa-facebook"></i>
             </a>
           </li>
           <li>
