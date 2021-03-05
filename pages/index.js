@@ -8,19 +8,15 @@ import Footer from '../components/Footer';
 import Experience from '../components/Experience';
 import Scrollbar from '../components/scroolbar'
 import Navbar from '../components/Navbar';
-// import Work from '../components/Work';
-
-
 
 const HomePage =() => {
     return(
         <Fragment>
-            <Navbar /> {/** */}
+            <Navbar /> 
             <Banner/>
             <About/>
             <Education/>
             <Experience/>
-            {/* <Work/> */}
             <Skill/>
             <Contact/>
             <Footer/>

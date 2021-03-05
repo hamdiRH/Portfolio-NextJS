@@ -16,15 +16,22 @@ class Contact extends Component {
                 <p></p>
                 <div className="adress">
                   <h3>Address</h3>
-                  <span>Naassen, Ben Arous Tunisie</span>
+
+                  <span>
+                    <i class="fa fa-map"></i> Naassen, Ben Arous Tunisie
+                  </span>
                 </div>
                 <div className="phone">
-                  <h3>Phone</h3>
-                  <span>216-23695854</span>
+                  <h3>
+                  Phone
+                  </h3>
+                  <span>  <i class="fa fa-phone" /> 216-23695854</span>
                 </div>
                 <div className="email">
                   <h3>Email</h3>
-                  <span>hamdi.rahal@gmail.com</span>
+                  <span>
+                    <i class="fa fa-envelope"></i> hamdi.rahal@gmail.com
+                  </span>
                 </div>
               </div>
             </div>
